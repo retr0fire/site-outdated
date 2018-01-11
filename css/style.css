@@ -12,7 +12,7 @@
 }
 
 body {
-    background-color: black !important;
+    background-color: slategrey !important;
     font-family: "pixelated";
     font-weight: 300;
     font-size: 15px;
@@ -71,7 +71,6 @@ img {
     filter: drop-shadow(-2px 0px 5px #777464);
     width: 100%;
     display: block;
-    border: solid #c13535;
     border-top-width: 0px;
     -moz-box-shadow: inset 0 0 10px #000000;
     -webkit-box-shadow: inset 0 0 10px #000000;
@@ -122,26 +121,6 @@ h6 {
 ::selection {
     color: #fff;
     background: #transparent;
-}
-
-#fh5co-main {
-    max-width: 760px;
-    min-height: 600px;
-    border: solid #c13535;
-    border-top-width: 0px;
-    -moz-box-shadow: inset 0 0 10px #000000;
-    -webkit-box-shadow: inset 0 0 10px #000000;
-    box-shadow: inset 0 0 10px #000000;
-    overflow: hidden;
-    border-bottom-width: 0px;
-    border-left-width: 40px;
-    border-right-width: 40px;
-    margin: -2em auto 5em auto;
-    position: relative;
-    background: #a1a1a1;
-    -webkit-transition: 0.5s;
-    -o-transition: 0.5s;
-    transition: 0.5s;
 }
 
 @media screen and (max-width: 768px) {
@@ -346,7 +325,7 @@ figure {
 .fh5co-counter .fh5co-text {
     float: right;
     text-align: left;
-    width: 70%;
+    width: 57.5%;
 }
 
 @media screen and (max-width: 768px) {
@@ -497,15 +476,16 @@ figure {
 
 #fh5co-footer {
     margin-top: 50px;
-    background: black;
+    background: transparent;
     clear: both;
     color: rgba(255, 255, 255, 0.6);
     font-size: 14px;
     position: absolute;
-    bottom: 0;
+    bottom: 10%;
+    left: 40%;
     width: 100%;
     padding: 20px 20px;
-    line-height: 1.2;
+    line-height: 0.7;
 }
 
 #fh5co-footer small {
